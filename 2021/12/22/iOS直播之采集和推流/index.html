@@ -13,6 +13,12 @@
     
 
     
+        <meta name="description" content="本地直播服务器搭建
+首先确保Mac安装完毕Homebrew
+安装Nginx服务器     $ brew tap denji/homebrew-nginx
+安装Nginx服务器和rtmp模块    $ brew install nginx-full --with-rtmp-module
+启动Nginx"/>
+    
 
     <!--Author-->
     
@@ -21,10 +27,16 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Sundusk"/>
+        <meta property="og:title" content="iOS直播之设备推流及本地直播服务器搭建"/>
     
 
     <!--Open Graph Description-->
+    
+        <meta property="og:description" content="本地直播服务器搭建
+首先确保Mac安装完毕Homebrew
+安装Nginx服务器     $ brew tap denji/homebrew-nginx
+安装Nginx服务器和rtmp模块    $ brew install nginx-full --with-rtmp-module
+启动Nginx"/>
     
 
     <!--Open Graph Site Name-->
@@ -32,7 +44,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website"/>
+        <meta property="og:type" content="article"/>
     
 
     <!--Page Cover-->
@@ -51,7 +63,7 @@
 
     <!-- Title -->
     
-    <title>Archives - Sundusk</title>
+    <title>iOS直播之设备推流及本地直播服务器搭建 - Sundusk</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -155,127 +167,92 @@
 </nav>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Archives</h1>
+                <div class="post-heading">
+                    <h1>iOS直播之设备推流及本地直播服务器搭建</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2021-12-22
+                        
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
             
-                <div class="post-preview">
-    <a href="/2021/12/22/iOS直播之采集和推流/">
-        <h1 class="post-title archive">
-            iOS直播之设备推流及本地直播服务器搭建
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2021-12-22
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2021/12/20/git设置代理/">
-        <h1 class="post-title archive">
-            git设置代理
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2021-12-20
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2021/12/20/CocoaPods添加官方源或国内源/">
-        <h1 class="post-title archive">
-            CocoaPods添加国内源
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2021-12-20
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2021/12/20/git-使用/">
-        <h1 class="post-title archive">
-            git 使用
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2021-12-20
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2021/12/18/hello-world/">
-        <h1 class="post-title archive">
-            Hello World
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2021-12-18
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2021/12/18/Xcode报错/">
-        <h1 class="post-title archive">
-            Xcode报错
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2021-12-18
-    </p>
-</div>
-            
-                <div class="post-preview">
-    <a href="/2021/12/18/关于M1版Mac下无法使用CocoaPods/">
-        <h1 class="post-title archive">
-            关于M1版Mac下无法使用CocoaPods
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2021-12-18
-    </p>
-</div>
-            
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-    
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2 id="本地直播服务器搭建"><a href="#本地直播服务器搭建" class="headerlink" title="本地直播服务器搭建"></a>本地直播服务器搭建</h2><ol>
+<li>首先确保Mac安装完毕Homebrew</li>
+<li>安装Nginx服务器    <code> $ brew tap denji/homebrew-nginx</code></li>
+<li>安装Nginx服务器和rtmp模块  <code>  $ brew install nginx-full --with-rtmp-module</code></li>
+<li>启动Nginx <code>$ nginx</code></li>
+<li>点击进入<a target="_blank" rel="noopener" href="https://links.jianshu.com/go?to=http://localhost:8080/">http://localhost:8080</a> ，出现如下网页则启动成功</li>
+</ol>
+<p>![<img src="47424e609e17335048750feafda9c760.png" alt="47424e609e17335048750feafda9c760.png"><br>6. 配置rtmp<br>打开Finder, 快捷键Shift + command + G前往，输入：/usr/local/etc/nginx/nginx.conf，用记事本工具打开nginx.conf.</p>
+<!--     http {
+        ……
+    }
+    #在文件的尾部加上rtmp配置：
+    rtmp {
+        server {
+            listen 1950;
+            application ppx {
+                live on;
+                record off;
+            }
+        }
+    } -->
+<pre><code>说明：  
+</code></pre>
+<p>rtmp是协议名称<br>server 说明内部中是服务器相关配置<br>listen 监听的端口号<br>application 访问的应用路径是 ppx<br>live on; 开启实时<br>record off; 不记录数据</p>
+<ol start="7">
+<li>保存文件后，重新加载Nginx的配置文件   <code> nginx -s reload</code></li>
+<li>获取推流地址<ul>
+<li>手机和电脑必须在同一局域网内，手机和电脑连同一wifi即可。先查看电脑IP地址：点击WiFi，选择网络偏好设置。选择当前连接的WiFi名字就可查看到其地址。</li>
+<li>使用“//”拼接配置地址rtmp:// + ‘listen(1950)/‘ + ‘application(ppx)/‘ + ‘自定义路径(room)’ </li>
+<li>“<a target="_blank" rel="noopener" href="https://links.jianshu.com/go?to=rtmp://192.168.3.151:1950/ppx/room">rtmp://192.168.1.102:1950/ppx/room</a>”</li>
 </ul>
+</li>
+</ol>
+<h2 id="设备推流"><a href="#设备推流" class="headerlink" title="设备推流"></a>设备推流</h2><h3 id="使用推流框架LFLiveKit"><a href="#使用推流框架LFLiveKit" class="headerlink" title="使用推流框架LFLiveKit"></a>使用推流框架LFLiveKit</h3><p>github地址: <a target="_blank" rel="noopener" href="https://links.jianshu.com/go?to=https://github.com/LaiFengiOS/LFLiveKit">https://github.com/LaiFengiOS/LFLiveKit</a><br>LFLiveKit库里已经集成GPUImage框架用于美颜功能，GPUImage基于OpenGl开发，纯OC语言框架，封装好了各种滤镜同时也可以编写自定义的滤镜，其本身内置了多达125种常见的滤镜效果。<br>pod install后打开项目。<br>将得到的rtmp地址当作demo中的推流地址<br><img src="2aeeea05436ab187241225f8af51b8e9.png" alt="2aeeea05436ab187241225f8af51b8e9.png"></p>
+<h2 id="拉流收看直播可以用支持rtmp的播放器"><a href="#拉流收看直播可以用支持rtmp的播放器" class="headerlink" title="拉流收看直播可以用支持rtmp的播放器"></a>拉流收看直播可以用支持rtmp的播放器</h2>
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
         </div>
     </div>
-</div>
-
+</article>
 
     <!-- Footer -->
     <hr />
